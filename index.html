@@ -69,7 +69,48 @@
                   <p>This app illustrates how you can use built-in template engine Template7 to render pages with required data.</p>
                 </div>
               </div>
-              <div class="list-block">
+            
+				<!-- On right side -->
+				<div class="list-block">
+				  <ul>
+					<li class="swipeout">
+					  <div class="swipeout-content item-content">
+						<div class="item-media">...</div>
+						<div class="item-inner">Swipeable List One</div>
+					  </div>
+					  <div class="swipeout-actions-right">
+						<a href="#" class="action1">Action 1</a>
+					  </div>
+					</li>
+					<li class="swipeout">
+					  <div class="swipeout-content item-content">
+						<div class="item-media">...</div>
+						<div class="item-inner">Swipeable List II</div>
+					  </div>
+					  <div class="swipeout-actions-right">
+						<a href="#" class="action1 bg-orange">Action 1</a>
+						<a href="#" class="action2">Action 2</a>
+					  </div>
+					</li>
+					<li class="swipeout">
+					  <div class="swipeout-content item-content">
+						<div class="item-media">...</div>
+						<div class="item-inner">Swipeable List 3</div>
+					  </div>
+					  <div class="swipeout-actions-left">
+						<a href="#" class="action1 bg-pink">Action L1</a>
+						<a href="#" class="action2 bg-lightblue">Action L2</a>
+					  </div>
+					  <div class="swipeout-actions-right">
+						<a href="#" class="action1 bg-orange">Action R1</a>
+						<a href="#" class="action2">Action R2</a>
+					  </div>
+					</li>
+				  </ul>
+				</div>
+		
+
+			<div class="list-block">
                 <ul>
                   <li><a href="#" data-template="about" data-context-name="about" class="item-link item-content">
                       <div class="item-inner"> 
@@ -89,7 +130,8 @@
                       </div></a></li>
                 </ul>
               </div>
-              <div class="content-block-title">Side panels</div>
+        
+			<div class="content-block-title">Side panels</div>
               <div class="content-block">
                 <div class="row">
                   <div class="col-50"><a href="#" data-panel="left" class="button open-panel">Left Panel</a></div>
@@ -130,9 +172,11 @@
         </div>
       </div>
     </script>
+
     <!-- Path to Framework7 Library JS-->
     <script type="text/javascript" src="js/framework7.min.js"></script>
     <!-- Path to your app js-->
     <script type="text/javascript" src="js/my-app.js"></script>
+	
   </body>
 </html>

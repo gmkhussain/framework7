@@ -89,6 +89,7 @@ var myApp = new Framework7({
             interests: ['swimming', 'music', 'JavaScript', 'iMac', 'iOS apps', 'sport']
         }
     }
+	
 });
 
 // Export selectors engine
@@ -99,3 +100,11 @@ var mainView = myApp.addView('.view-main', {
     // Enable dynamic Navbar
     dynamicNavbar: true,
 });
+
+
+$$('.action1').on('click', function () {
+  myApp.alert('Action 1');
+});
+$$('.action2').on('click', function () {
+  myApp.alert('Action 2');
+});  
